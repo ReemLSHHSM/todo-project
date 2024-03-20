@@ -1,5 +1,5 @@
 //Enter name
-/*let name=window.prompt("Enter your name please");
+let name=window.prompt("Enter your name please");
 
 // enter gender
 let gender;
@@ -26,6 +26,6 @@ if(wantMessage){
     else{
         window.alert('Welocme '+name);
     }
-}*/
+}
 
 
