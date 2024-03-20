@@ -1,11 +1,11 @@
 //Enter name
-let name=window.prompt("Enter your name please");
+/*let name=window.prompt("Enter your name please");
 
 // enter gender
 let gender;
-//do {
+do {
   gender = window.prompt("Enter your gender please").toLowerCase();
-//} while (gender != 'male' && gender != 'female');
+} while (gender != 'male' && gender != 'female');
 
 //Age
 
@@ -26,6 +26,6 @@ if(wantMessage){
     else{
         window.alert('Welocme '+name);
     }
-}
+}*/
 
 
