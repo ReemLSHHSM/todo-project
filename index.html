@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Dolisty</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--Styles-->
+     <style>
+        /*Table*/
+        #t{
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 50%;
+            border: 1px solid rgb(20, 20, 20);
+            margin-left: 200px;
+            margin-top: 50px;
+           
+            
+        }
+        #t tr:hover{
+            background-color: #ddd;
+            
+        }
+        #t th{
+            background-color: rgb(191, 96, 204);
+            padding-top: 10px;
+            padding-bottom:10px;
+        }
+        #t td{
+            text-align: center;
+            padding: 5px;
+        }
+        tr:nth-child(odd) {
+            background-color: #f2f2f2;
+        }
+
+        /*Footer*/
+        footer p{
+            margin-left: 200px;
+            text-shadow:1px 1px 2px black, 0 0 25px rgb(202, 202, 218), 0 0 5px rgb(212, 212, 223);
+            font-size: 10px;
+            transition-timing-function: ease;
+            transition: font-size 2s;
+            
+            
+        }
+        footer p:hover{
+            font-size:20px;
+        }
+
+        /*Header*/
+        header{
+            margin-top: 20px;
+            font-style: italic;
+
+        }
+        
+        header i{
+            animation: rotateGlobe 3s linear infinite;
+        }
+        @keyframes rotateGlobe {
+          0% {
+              transform: rotateY(0deg);
+             }
+        100% {
+              transform: rotateY(360deg);
+              }}
+    </style>
+
+
+
+</head>
+<body>
+    <header>
+        <p >Check out the form in the about page <a href="about.html">here </a><i class="fas fa-globe"></i></p>
+    
+    </header>
+    
+    <main>
+        <table border="1" id="t">
+            
+                <tr>
+                    <th>Tasks</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Finish all lab assignments</td>
+                    <td>Completed</td>
+                </tr>
+                <tr><td>Study Css</td>
+                    <td>In Progress</td>
+                </tr>
+                <tr>
+                    <td>Study JS</td>
+                <td>Pending</td>
+            </tr>
+                <tr>
+                    <td>Study HTML</td>
+                    <td>In Progress</td>
+                </tr>
+                <tr>
+                    <td>Complete required reports</td>
+                    <td>Done</td>
+                </tr>
+            
+        </table>
+    </main>
+
+    <footer>
+        <p >© 2024 Todo-listy. All Rights Reserved.</p>
+        
+
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
